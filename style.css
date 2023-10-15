@@ -1,53 +1,38 @@
-body {
-    height: 1700px;
+
+body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
-
-
-header {
+header{
     width: 1248px;
     height: 42px;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between; 
+  
 }
-
-.par-1 {
+.par-1{
     width: 1248px;
     height: 1822px;
 }
-
-header .title-You {
+header .title-You{
     font-family: 'Allerta Stencil';
     font-size: 35px;
     color: #A18A68;
 }
-
-header .title-Shop {
+header .title-Shop{
     font-family: 'Allerta Stencil';
     font-size: 35px;
     color: #686AA1;
 }
-
-.List {
+.List{
     font-size: 16px;
-    width: 624px;
+   width: 624px;
     height: 27px;
-    list-style: none;
+     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-
-figure {
-    width: 1248px;
-    height: 646px;
-    display: flex;
-    align-items: center;
-}
-
 .f-titel {
     width: 395px;
     height: 94px;
@@ -55,9 +40,8 @@ figure {
     color: #fbfbfb;
     padding: 20px;
 }
-
-.f-buttom {
-
+.f-buttom{
+    
     width: 195px;
     height: 53px;
     background: none;
@@ -67,28 +51,36 @@ figure {
     margin: 10px;
 
 }
-
-.slider {
+.slider{
     position: absolute;
     left: 45%;
     top: 90%;
 }
-
-a {
+a{
     text-decoration: none;
     color: #A18A68;
 }
-
-.shopLatest {
+.shopLatest{
     width: 1248px;
     height: 42px;
     margin: 1rem auto;
     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+main{
+    width: 1248px;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.par-1 {
+
+.par-1{
     width: 1248px;
     height: 1822px;
     margin: 0;
@@ -96,53 +88,55 @@ a {
     flex-direction: column;
     align-items: center;
 }
-
-main {
+figure {
     width: 1248px;
-    height: 3400px;
-    margin: 0;
+    height: 646px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
-
 .par-1 .albom {
     width: 1248px;
-    height: 1820px;
+    height: 1200 px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* Styles for the custom cards */
 .albom .cart {
     width: 380px;
     height: 472px;
-    margin: 0px;
+    margin: 0px ;
+}
+b {
+    font-size: 20px;
+    color: #A18A68;
 }
 
-.par-2 {
+h2{
+    font-size: 20px;
+}
+
+.par-2{
     width: 1150px;
     height: 1425px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     margin-left: 4.5%;
 
 }
 
-.nL-nolist {
+.nL-nolist{
     width: 1150px;
-    height: auto;
+    height:auto;
     display: flex;
 }
 
+
 /* ------------footer-------------------------------  */
 footer {
-
+    margin-top: 80px;
     width: 1248px;
     height: 159px;
     border-top: 1px solid #D8D8D8;

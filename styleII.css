@@ -133,7 +133,7 @@ p {
 
 /* ------------footer-------------------------------  */
 footer {
-
+    margin-top: 80px;
     width: 1248px;
     height: 159px;
     border-top: 1px solid #D8D8D8;
