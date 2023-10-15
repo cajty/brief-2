@@ -1,6 +1,8 @@
 body {
+    height: 1600px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,7 +41,7 @@ header {
 
 main {
     width: 1248px;
-    height: 900px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +51,7 @@ main {
 
 .pr1 {
     width: 1176px;
-    height: 1020px;
+    height: 1120px;
     background: #D8D8D8;
     display: flex;
     flex-direction: column;

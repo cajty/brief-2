@@ -1,8 +1,11 @@
 body {
+    height: 1700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
+
 
 h2 {
     font-size: 25px;
@@ -50,7 +53,7 @@ main {
 .part {
     width: 1248px;
     height: 1200px;
-    background: #a8a8a8;
+    background: #F5F5F5;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -1,8 +1,11 @@
 body {
+    height: 1700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
+
 
 header {
     width: 1248px;
@@ -96,7 +99,7 @@ a {
 
 main {
     width: 1248px;
-    height: auto;
+    height: 3400px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +109,7 @@ main {
 
 .par-1 .albom {
     width: 1248px;
-    height: auto;
+    height: 1820px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;

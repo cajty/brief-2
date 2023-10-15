@@ -1,24 +1,17 @@
 body {
+    height: 1700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h1 {
     font-size: 60px;
-}
-
-.List-0 {
-    font-size: 25px;
-}
-
-b {
-    font-size: 60px;
-    color: #A18A68;
 }
 
 header .title-You {
@@ -44,80 +37,41 @@ header {
 
 main {
     width: 1248px;
-    height: 1500px;
+    height: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
 }
+
+.part {
+    width: 1248px;
+    height: 1200px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
 
 .pr1 {
-    width: 1248px;
-    height: 698px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pr2 {
-    width: 1176px;
-    height: 520px;
-    background: #D8D8D8;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.COMMENTS {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    width: 1000px;
-    height: 40px;
-    padding: 5px;
+    width: 992px;
+    height: 300px;
     background: #ffffff;
-    font-size: 25px;
-
-}
-
-.proda {
-    width: 588px;
-    height: 698px;
-    background: #D8D8D8;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    border-radius: 5px;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.card {
-    width: 588px;
-    height: 698px;
-    background: #F5F5F5;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.imagebordr{
+    border: none;
+    padding-left: 125px;
+    border-left: 1.5px solid #000000;
+    
 }
-
-.List {
-    font-size: 16px;
-    width: 624px;
-    height: 27px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-
 .c-buttom {
     width: 195px;
     height: 53px;
@@ -137,6 +91,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.List {
+    font-size: 16px;
+    width: 624px;
+    height: 27px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sc-box {

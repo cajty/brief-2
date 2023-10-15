@@ -1,8 +1,11 @@
 body {
+    height: 1700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
+
 
 h2 {
     font-size: 50px;
