@@ -11,52 +11,79 @@
 
 <body>
   <header>
-    <div class="title-You"> You <span class="title-Shop">shop</span></div>
-    <nav>
-      <ul class="List">
-        <li> shop</li>
-        <li>Blog</li>
-        <li>Our Stary</li>
-        <li> <img src="image/Line 2.png" alt="line"> </li>
-        <li><a href="#"><img src="image/recher.png" alt="recher" style=" width:19px; height: 19px; "></a></li>
-        <li><a href="#"><img src="image/shopping-cart 1.png" alt="shoping" style=" width:21px; height: 21; "></a></li>
-        <li><a href="#"><img src="image/Icon color.png" alt="conte-use" style=" width:20px; height: 20px; "></a></li>
+    <div class="title">
+      <span id="you">You</span>
+      <span id="shop">shop</span>
+    </div>
 
-      </ul>
-    </nav>
+    <ul class="list-header">
+      <li>shop</li>
+      <li>Blog</li>
+      <li>Our Stary</li>
+      <li> <img src="image/Line 2.png" alt="line"> </li>
+      <li><a href="#"><img src="image/recher.png" alt="recher" width="19px" height="19px"></a></li>
+      <li><a href="#"><img src="image/shopping-cart 1.png" alt="shoping" width="21px" height="21"></a></li>
+      <li><a href="#"><img src="image/Icon color.png" alt="conte-use" width="20px" height="20"></a></li>
+    </ul>
+    <img src="image/Vector.png" alt="menu" class="menu" width="25px" height="25px">
+  
   </header>
 
   <main>
     <h1>Panier</h1>
     <div class="part">
 
-      <section class="pr1">
+      <section class="pr1" id="11">
         <div class="cart">
-          <img src="image/Img 01.png" alt="conte-use" width="380px" height="381">
-          <h2>Yuki Hair Pin Set of 3</h2>
-          <b>$ 20,00</b>
+          <img src="image/Img 01.png" alt="conte-use"   width="380px" height="381px">
+          <h2>Lira Earrings</h2>
+          <b> 20.00$ </b>
         </div>
         <div class="button">
           <div class="quantita">
-            <button class="c-buttom">3</button>
-            <button class="pm-buttom">+</button>
-            <button class="pm-buttom">-</button>
+            <div class="c-buttom" id="num_1_prodt">1</div>
+            <button class="pm-buttom" id="mois_1" > - </button>
+            <button class="pm-buttom" id="plus_1" > + </button>
           </div>
-          <a href="buy.htm"> <button class="c-buttom">buy</button></a>
+          <a href="buy.htm" class="c-buttom">buy</a>
           <button class="c-buttom">remove</button>
         </div>
       </section>
-      <div class="pr2">
-        <h2>La liste des produits dans le panier</h2>
-        <div>
-          <img src="image/Img 01.png" alt="conte-use" width="250px" height="250px" class="imgSlecte">
-          <img src="image/Img 02.png" alt="conte-use" width="250px" height="250px">
-          <img src="image/Img 05.png" alt="conte-use" width="250px" height="250px">
+      <section class="pr1"  id="12">
+        <div class="cart">
+          <img src="image/Img 05.png" alt="conte-use"   width="380px" height="381px">
+          <h2>Plaine Necklace</h2>
+          <b > 19.00$ </b>
         </div>
-      </div>
-    </div>
-
-
+        <div class="button">
+          <div class="quantita">
+            <div class="c-buttom" id ="num_5_prodt" >4</div>
+            <button class="pm-buttom"  id="mois_5"> - </button>
+            <button class="pm-buttom" id="plus_5"> + </button>
+          </div>
+          <a href="buy.htm" class="c-buttom">buy</a>
+          <button class="c-buttom" id="rev1">remove</button>
+        </div>
+      </section>
+      <section class="pr1">
+        <div class="cart">
+          <img src="image/Img 02.png" alt="conte-use"   width="380px" height="381px">
+          <h2>Hal Earrings</h2>
+          <b > 25.00$ </b>
+        </div>
+        <div class="button">
+          <div class="quantita">
+            <div class="c-buttom"  id="num_2_prodt">2</div>
+            <button class="pm-buttom"  id="mois_2" > - </button>
+            <button class="pm-buttom" id="plus_2"> + </button>
+          </div>
+          <a href="buy.htm" class="c-buttom">buy</a>
+          <button class="c-buttom">remove</button>
+        </div>
+      </section>
+      <h1 id="demo"> </h1>
+        
+      
 
     </div>
   </main>
@@ -71,15 +98,16 @@
     </ul>
     <div class="sc-box">
       <div class="give-email">
-        <input type="text" placeholder="Give an email, get the newsletter">
-        <img src="image/arow.png" alt="arow pf email" width="25px" height="9">
+        <input id="email" type="text" placeholder="Give an email, get the newsletter">
+        <img src="image/arow.png" alt="arow pf email">
       </div>
 
-      <img src="image/socileMadya.png" class="conte-use" style=" width:159px; height: 19px; ">
+      <img src="image/socileMadya.png" class="conte-use"  width="159px" height="19px" >
     </div>
+   
 
   </footer>
-
+  <script src="scricpt.js"></script>
 </body>
 
 </html>
