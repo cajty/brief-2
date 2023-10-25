@@ -18,14 +18,20 @@ menu.addEventListener("click", () => {
     // mois(p_1, p_id_1);
      totals();
  });
+ var demor = document.getElementById("demo");
+ var p_2 =  1;
+ var p_1 = 2;
+var p_5 = 1;
 
-// var p_2 =  1;
-// var p_1 = 2;
-// var p_5 = 1;
+ function totals(){
+    var total = 20 * p_1 + 19 * p_5 + 25 * p_2;
+     demor.innerText = total + ".00$";
+ }
+
 // var p_id_2 =  document.getElementById("num_2_prodt");
 // var p_id_5 =  document.getElementById("num_5_prodt");
 // var p_id_1 =  document.getElementById("num_1_prodt");
-// var total = 20 * p_1 + 18 * p_5 + 18 * p_2;
+ 
 
 
 
@@ -35,7 +41,7 @@ menu.addEventListener("click", () => {
 // //var plus_1 = document.getElementById("plus_1");
 // var plus_2 = document.getElementById("plus_2");
 // var plus_5 = document.getElementById("plus_5");
-// var demor = document.getElementById("demo");
+
 
 
 
@@ -73,11 +79,6 @@ menu.addEventListener("click", () => {
 //     totals();
 // }
 
-
-// function totals(){
-
-//     demor.innerText = total + ".00$";
-// }
 
 
 
