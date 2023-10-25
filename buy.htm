@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouShop buy</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleBuy.css">
   <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
 </head>
 
@@ -42,13 +42,15 @@
     <h1>Information du paiment</h1>
     <section class="pr1">
       <h2>Ajouté information de livraison</h2>
-      <input class="info-cart" type="text" placeholder="Nom te prénom :">
-      <input class="info-cart" type="text" placeholder=" Address :">
+       <form id="form" action="commande.html" class="pr1">
+      <input class="info-cart" id="NomPrénom " type="text" placeholder="Nom et prénom :" required>
+      <input class="info-cart" type="text" placeholder=" Address :"  id="Address"required>
       <h2>Ajouté la quarte bancaire</h2>
-      <input class="info-cart" type="text" placeholder="Numero de la cart :">
-      <input class="info-cart" type="text" placeholder="Expiration de la cart (MM/YYYY) :">
-      <input class="info-cart" type="text" placeholder="Code de sécurité de la cart :">
-      <a href="commande.html"> <button class="c-buttom">pay</button></a>
+      <input class="info-cart" id="NumCart" type="text" placeholder="Numero de la cart :" required>
+      <input class="info-cart"  id="ExpCart" type="text" placeholder="Expiration de la cart (MM/YYYY) :" required>
+      <input class="info-cart"  id="Code" type="text" placeholder="Code de sécurité de la cart :" required>
+      <button   class="c-buttom" type="submit"> pay </button>
+    </form>
       <img src="image/buyASO.png" alt="buyAso">
     </section>
   </main>
@@ -66,7 +68,9 @@
       <img src="image/socileMadya.png" class="conte-use" width="159px" height="19px">
     </div>
   </footer>
-  <script src="scricpt.js"></script>
+  <script src="scricpt.js"></script> 
 </body>
-
 </html>
+
+
+
